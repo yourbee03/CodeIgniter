@@ -1,0 +1,188 @@
+ERROR - 2024-08-18 01:54:28 --> cURL Error: 22 : The requested URL returned error: 405
+CRITICAL - 2024-08-18 01:54:28 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: proyek/edit/2]
+in APPPATH\Views\proyek\edit.php on line 5.
+ 1 APPPATH\Views\proyek\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\htdocs\\proyek\\app\\Views\\proyek\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\proyek\\app\\Views\\proyek\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proyek/edit', [], true)
+ 5 APPPATH\Controllers\ProyekController.php(76): view('proyek/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProyekController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProyekController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\proyek\\public\\index.php')
+ERROR - 2024-08-18 01:56:39 --> cURL Error: 22 : The requested URL returned error: 400
+ERROR - 2024-08-18 01:56:39 --> Exception: Trying to access array offset on value of type null
+ERROR - 2024-08-18 01:57:12 --> cURL Error: 22 : The requested URL returned error: 400
+ERROR - 2024-08-18 01:57:12 --> Exception: Trying to access array offset on value of type null
+CRITICAL - 2024-08-18 01:58:01 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: proyek/create]
+in APPPATH\Views\proyek\create.php on line 34.
+ 1 APPPATH\Views\proyek\create.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\proyek\\app\\Views\\proyek\\create.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\proyek\\app\\Views\\proyek\\create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proyek/create', [], true)
+ 5 APPPATH\Controllers\ProyekController.php(27): view('proyek/create')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProyekController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProyekController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\proyek\\public\\index.php')
+CRITICAL - 2024-08-18 01:58:05 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: proyek/create]
+in APPPATH\Views\proyek\create.php on line 34.
+ 1 APPPATH\Views\proyek\create.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\proyek\\app\\Views\\proyek\\create.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\proyek\\app\\Views\\proyek\\create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proyek/create', [], true)
+ 5 APPPATH\Controllers\ProyekController.php(27): view('proyek/create')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProyekController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProyekController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\proyek\\public\\index.php')
+ERROR - 2024-08-18 01:58:43 --> cURL Error: 22 : The requested URL returned error: 400
+CRITICAL - 2024-08-18 01:59:55 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: proyek/create]
+in APPPATH\Views\proyek\create.php on line 34.
+ 1 APPPATH\Views\proyek\create.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\proyek\\app\\Views\\proyek\\create.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\proyek\\app\\Views\\proyek\\create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proyek/create', [], true)
+ 5 APPPATH\Controllers\ProyekController.php(27): view('proyek/create')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProyekController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProyekController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\proyek\\public\\index.php')
+CRITICAL - 2024-08-18 02:00:37 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: proyek/create]
+in APPPATH\Views\proyek\create.php on line 34.
+ 1 APPPATH\Views\proyek\create.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\proyek\\app\\Views\\proyek\\create.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\proyek\\app\\Views\\proyek\\create.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proyek/create', [], true)
+ 5 APPPATH\Controllers\ProyekController.php(28): view('proyek/create')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProyekController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProyekController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\proyek\\public\\index.php')
+ERROR - 2024-08-18 02:01:07 --> cURL Error: 22 : The requested URL returned error: 400
+CRITICAL - 2024-08-18 02:02:46 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: proyek/create]
+in APPPATH\Views\proyek\create.php on line 33.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proyek/create', [], true)
+ 4 APPPATH\Controllers\ProyekController.php(28): view('proyek/create', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProyekController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProyekController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\proyek\\public\\index.php')
+ERROR - 2024-08-18 02:03:44 --> cURL Error: 22 : The requested URL returned error: 400
+CRITICAL - 2024-08-18 02:07:34 --> TypeError: array_map(): Argument #2 ($array) must be of type array, string given
+[Method: POST, Route: proyek/store]
+in APPPATH\Controllers\ProyekController.php on line 41.
+ 1 APPPATH\Controllers\ProyekController.php(41): array_map(Object(Closure), '1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProyekController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProyekController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\proyek\\public\\index.php')
+ERROR - 2024-08-18 02:09:58 --> cURL Error: 22 : The requested URL returned error: 400
+ERROR - 2024-08-18 02:10:16 --> cURL Error: 22 : The requested URL returned error: 400
+ERROR - 2024-08-18 02:13:32 --> cURL Error: 22 : The requested URL returned error: 400
+ERROR - 2024-08-18 02:16:10 --> cURL Error: 22 : The requested URL returned error: 405
+CRITICAL - 2024-08-18 02:16:10 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: proyek/edit/2]
+in APPPATH\Views\proyek\edit.php on line 5.
+ 1 APPPATH\Views\proyek\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\htdocs\\proyek\\app\\Views\\proyek\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\proyek\\app\\Views\\proyek\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proyek/edit', [], true)
+ 5 APPPATH\Controllers\ProyekController.php(76): view('proyek/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProyekController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProyekController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\proyek\\public\\index.php')
+ERROR - 2024-08-18 02:16:31 --> cURL Error: 22 : The requested URL returned error: 400
+ERROR - 2024-08-18 02:19:53 --> cURL Error: 22 : The requested URL returned error: 405
+CRITICAL - 2024-08-18 02:19:53 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: proyek/edit/2]
+in APPPATH\Views\proyek\edit.php on line 5.
+ 1 APPPATH\Views\proyek\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\htdocs\\proyek\\app\\Views\\proyek\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\proyek\\app\\Views\\proyek\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proyek/edit', [], true)
+ 5 APPPATH\Controllers\ProyekController.php(76): view('proyek/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProyekController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProyekController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\proyek\\public\\index.php')
+ERROR - 2024-08-18 02:19:58 --> cURL Error: 22 : The requested URL returned error: 405
+CRITICAL - 2024-08-18 02:19:58 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: proyek/edit/1]
+in APPPATH\Views\proyek\edit.php on line 5.
+ 1 APPPATH\Views\proyek\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\htdocs\\proyek\\app\\Views\\proyek\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\proyek\\app\\Views\\proyek\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proyek/edit', [], true)
+ 5 APPPATH\Controllers\ProyekController.php(76): view('proyek/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProyekController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProyekController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\proyek\\public\\index.php')
+ERROR - 2024-08-18 02:20:02 --> cURL Error: 22 : The requested URL returned error: 405
+CRITICAL - 2024-08-18 02:20:02 --> ErrorException: Attempt to read property "id" on null
+[Method: GET, Route: proyek/edit/1]
+in APPPATH\Views\proyek\edit.php on line 5.
+ 1 APPPATH\Views\proyek\edit.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on null', 'C:\\xampp\\htdocs\\proyek\\app\\Views\\proyek\\edit.php', 5)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\proyek\\app\\Views\\proyek\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('proyek/edit', [], true)
+ 5 APPPATH\Controllers\ProyekController.php(76): view('proyek/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProyekController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProyekController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\proyek\\public\\index.php')
+ERROR - 2024-08-18 02:22:01 --> cURL Error: 22 : The requested URL returned error: 405
+ERROR - 2024-08-18 02:22:01 --> Project data not found for ID: 2
+ERROR - 2024-08-18 02:22:04 --> cURL Error: 22 : The requested URL returned error: 405
+ERROR - 2024-08-18 02:22:04 --> Project data not found for ID: 2
+ERROR - 2024-08-18 02:22:10 --> cURL Error: 22 : The requested URL returned error: 405
+ERROR - 2024-08-18 02:22:10 --> Project data not found for ID: 2
+ERROR - 2024-08-18 02:22:13 --> cURL Error: 22 : The requested URL returned error: 405
+ERROR - 2024-08-18 02:22:13 --> Project data not found for ID: 2
+ERROR - 2024-08-18 02:23:35 --> cURL Error: 22 : The requested URL returned error: 405
+ERROR - 2024-08-18 02:23:35 --> Project data not found for ID: 2
+ERROR - 2024-08-18 02:25:31 --> cURL Error: 22 : The requested URL returned error: 405
+ERROR - 2024-08-18 02:25:31 --> Project data not found for ID: 2
